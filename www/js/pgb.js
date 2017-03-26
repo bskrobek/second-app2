@@ -23,7 +23,9 @@ function deviceInfo() {
 
 function personalInfo() {
 
-	myInfo =  'Bartłomiej Skrobek';
+	myInfo =  'Bartłomiej Skrobek' + '\n' +
+			  'e-mail: bskrobek@gmail.com' + '\n' +
+			  'KrDUIS1012' + '\n';
 
 	navigator.notification.alert(myInfo);
 	
